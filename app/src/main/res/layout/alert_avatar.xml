@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/tv_elige_avatar"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/av_0"
+                android:id="@+id/av0"
+                android:scaleType="fitXY"
+                android:backgroundTint="@android:color/transparent" />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/av_1"
+                android:id="@+id/av1"
+                android:scaleType="fitXY"
+                android:backgroundTint="@android:color/transparent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/av_2"
+                android:id="@+id/av2"
+                android:scaleType="fitXY"
+                android:backgroundTint="@android:color/transparent" />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/av_3"
+                android:id="@+id/av3"
+                android:scaleType="fitXY"
+                android:backgroundTint="@android:color/transparent" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/av_4"
+                android:id="@+id/av4"
+                android:scaleType="fitXY"
+                android:backgroundTint="@android:color/transparent" />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/av_5"
+                android:id="@+id/av5"
+                android:scaleType="fitXY"
+                android:backgroundTint="@android:color/transparent"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/av_6"
+                android:id="@+id/av6"
+                android:scaleType="fitXY"
+                android:backgroundTint="@android:color/transparent" />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/av_7"
+                android:id="@+id/av7"
+                android:scaleType="fitXY"
+                android:backgroundTint="@android:color/transparent" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

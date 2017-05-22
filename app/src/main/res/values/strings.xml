@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Solidareus</string>
+
+    <string name="title_login">Login</string>
+
+
+    <!-- Buttons -->
+    <string name="b_yes">Sí</string>
+    <string name="b_no">No</string>
+    <string name="b_cancelar">Cancelar</string>
+    <string name="b_login">Login</string>
+    <string name="b_logout">Logout</string>
+    <string name="b_register">Registrar</string>
+    <string name="b_more_info">Más información</string>
+    <string name="b_jugar">Jugar</string>
+
+    <!-- Text Views -->
+    <string name="tv_genre">Género</string>
+    <string name="genre_M">Masculino</string>
+    <string name="genre_F">Femenino</string>
+    <string name="tvLogin_Register">Ya tengo cuenta</string>
+    <string name="tvNo_projects">No hay proyectos</string>
+    <string name="tv_reconnect">Volver a intentar</string>
+    <string name="tv_total">Total de clicks</string>
+    <string name="tv_record">Récord</string>
+    <string name="tv_elige_avatar">Elige tu avatar</string>
+    <string name="tv_pass_lost">No recuerdo la contraseña</string>
+
+    <!-- Hints -->
+    <string name="hint_user">Usuario (email)</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_new_password">Crea una contraseña</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_surname">Apellidos</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_fecha_nacimiento">Fecha de nacimiento</string>
+
+    <!-- Alerts -->
+    <string name="alert_registering">Registrando...</string>
+    <string name="alert_logging">Iniciando sesión...</string>
+    <string name="alert_logout_title">Logout</string>
+    <string name="alert_logout__message">¿Quieres cerrar sesión?</string>
+    <string name="alert_new_logro_title">¡Enhorabuena!</string>
+    <string name="alert_new_logro_message">Has conseguido un nuevo logro:</string>
+
+    <string name="alert_no_connection_title">No estás conectado a Internet</string>
+    <string name="alert_no_conection_message">Conéctate a Internet para poder recaudar fondos a traves de la publicidad</string>
+
+    <string name="alert_lost_pass_title">Recuperar contraseña</string>
+    <string name="alert_lost_pass_message">Por favor, introduce tu email y te enviaremos un correo electrónico con tus credenciales</string>
+
+    <!-- Toast -->
+    <string name="no_conexion">No hay conexión</string>
+    <string name="toast_welcome">Bienvenido a Solidareus</string>
+    <string name="toast_complete_form">Completa el formulario para registrarte correctamente</string>
+    <string name="toast_complete_form_date">Por favor selecciona tu cumpleaños</string>
+    <string name="toast_error_ocured">Ha ocurrido un error</string>
+    <string name="toast_error_user_inexistent">Error, no existe ese usuario</string>
+    <string name="toast_error_incorrect_pass">Error, contraseña incorrecta</string>
+    <string name="toast_error_contraseña_no_coincide">Error, la contraseña no coincide</string>
+    <string name="toast_error_contraseña_seis_caracteres">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="toast_error_user_already_registered">Error, ya existe un usuario registrado con ese email</string>
+    <string name="toast_user_registered">Usuario registrado correctamente</string>
+    <string name="toast_pass_6digitos">La contraseña debe contener al menos 6 caracteres</string>
+    <string name="title_activity_main">Main</string>
+    <string name="action_settings">Settings</string>
+    <string name="toast_select_project_first">Antes de jugar debes seleccionar un proyecto</string>
+    <string name="toast_login_error_user_not_exist">El usuario introducido no existe</string>
+    <string name="toast_email_password_sent">Revisa la bandeja de entrada, te hemos enviado un email con tus credenciales</string>
+
+    <!-- Register -->
+
+    <string name="hint_login_name">Nombre</string>
+    <string name="hint_login_surname">Apellidos</string>
+    <string name="hint_login_email">Correo electrónico</string>
+    <string name="hint_login_pass">Contraseña</string>
+    <string name="hint_login_passConf">Repetir</string>
+    <string name="hint_login_city">Localidad</string>
+    <string name="hint_login_birthday">Cumpleaños</string>
+    <string name="hint_login_genre">Género</string>
+    <string name="hint_login_genderM">M</string>
+    <string name="hint_login_genderF">F</string>
+    <string name="b_sendlogin">Registrar</string>
+    <string name="b_send">Enviar</string>
+    <string name="b_resgistrar">Tengo cuenta</string>
+
+    <!-- Login -->
+
+    <string name="bLogin_Register">No tengo cuenta</string>
+    <string name="b_Login">Entrar</string>
+
+    <!-- User page -->
+
+    <string name="tv_nombre">Nombre</string>
+    <string name="tv_apellidos">Apellido1 Apellido 2</string>
+    <string name="tv_misiones">MISIONES</string>
+    <string name="tv_textomisiones">Juega 7 días seguidos</string>
+    <string name="tv_proyectoActual">PROYECTO ACTUAL</string>
+    <string name="tv_tituloproyecto">Colegio en Sáhara</string>
+    <string name="tv_descripcioncorta">Construcción de una escuela</string>
+    <string name="tv_fechafinal">Agosto 2017</string>
+    <string name="tv_logros">LOGROS</string>
+    <string name="tv_logro_falta">Progreso</string>
+    <string name="tv_logro_conseguido">¡Logro conseguido!</string>
+    <string name="tv_logro_no_conseguido">Logro no conseguido</string>
+    <string name="tv_puntos_conseguidos">Puntos totales conseguidos por la comunidad de Solidareus:</string>
+
+
+
+    <string-array name="misiones_array">
+        <item>Juega 7 días seguidos</item>
+        <item>Juega 30 días seguidos</item>
+        <item>Consigue 5.000 clicks</item>
+        <item>Click en la publicidad</item>
+        <item>2.000 clicks en Investigación</item>
+        <item>2.000 clicks en Nutrición</item>
+        <item>2.000 clicks en Fauna</item>
+        <item>2.000 clicks en Medio Ambiente</item>
+        <item>2.000 clicks en Medicina</item>
+        <item>2.000 clicks en Educación</item>
+        <item>2.000 clicks en Flora</item>
+        <item>2.000 clicks en Agua</item>
+    </string-array>
+
+
+
+    <string name="banner_id_main">ca-app-pub-8201711610126915/7729787584</string>
+    <string name="interstitial_id_main">ca-app-pub-8201711610126915/3938716385</string>
+
+
+</resources>

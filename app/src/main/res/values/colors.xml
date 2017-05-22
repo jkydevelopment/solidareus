@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#00BFA5</color>
+    <color name="colorPrimaryDark">#003029</color>
+    <color name="colorAccent">#003029</color>
+    <color name="colorBackgroundLight">#DFF7F4</color>
+    <color name="colorBackgroundDark">#008F7C</color>
+    <color name="colorBackgroundWhite">#FEFEFE</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteAlpha">#afffffff</color>
+
+
+
+    <color name="colorNutricion">#FFC300</color>
+    <color name="colorMedicina">#BF001A</color>
+    <color name="colorAgua">#00A9BF</color>
+    <color name="colorFauna">#FF5733</color>
+    <color name="colorMedioAmbiente">#DAF7A6</color>
+    <color name="colorFlora">#7ABF00</color>
+    <color name="colorInvestigacion">#4600BF</color>
+    <color name="colorEducacion">#873600</color>
+
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorBigText">#414141</color>
+    <color name="colorSecondaryText">#757575</color>
+
+    <color name="colorItemMenu">#767676</color>
+    <color name="colorCardView">#ededed</color>
+    <color name="colorStarNotSelected">#565e5e5e</color>
+
+    <color name="colorWrong">#83ff0000</color>
+    <color name="colorTextWrong">#ca1f1f</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorBackgroundGamePanel">#7f585858</color>
+    <color name="colorBackgroundGameHelp">#c02b2b2b</color>
+
+
+</resources>
